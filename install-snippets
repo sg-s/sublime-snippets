@@ -1,0 +1,8 @@
+#!/bin/bash
+# copies all sublime snippets into a folder that Sublime Text 3 can read from
+
+
+for file in *.sublime-snippet
+do
+	cp $file "/Users/sigbhu/Library/Application Support/Sublime Text 3/Packages/User"
+done
