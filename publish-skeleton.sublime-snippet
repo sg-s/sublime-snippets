@@ -8,7 +8,7 @@ prettyFig()
 if being_published	
 	snapnow	
 	delete(gcf)
-	end
+end
 
 
 %% Version Info

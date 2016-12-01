@@ -1,11 +1,15 @@
 <snippet>
 	<content><![CDATA[
+% get options from dependencies 
+options = getOptionsFromDeps(mfilename);
+
 % options and defaults
 options.foo = 1;
 options.bar = 2;
 
 if nargout && ~nargin 
 	varargout{1} = options;
+    return
 end
 
 % validate and accept options
@@ -19,7 +23,7 @@ if iseven(length(varargin))
     		disp(fieldnames(options))
     		error('UNKNOWN OPTION')
     	else
-    		options = setfield(options,temp,varargin{ii+1});
+    		options.(temp) = varargin{ii+1};
     	end
     end
 end
