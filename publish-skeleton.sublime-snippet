@@ -11,9 +11,18 @@ if being_published
 end
 
 
-%% Version Info
-%
+%% How to reproduce this document
+% 
+
+%%
+% First, get the code: 
+
 pFooter;
+
+%%
+% Then, run this script:
+
+disp(mfilename)
 
 
 
