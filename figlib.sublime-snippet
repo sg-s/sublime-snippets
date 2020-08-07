@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+figlib.pretty('LineWidth',1.5)
+]]></content>
+	<tabTrigger>figlib</tabTrigger>
+	<scope>source.matlab</scope>
+
+</snippet>

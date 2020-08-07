@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+parfor i = 1:length()
+
+end
+]]></content>
+	<tabTrigger>parfor</tabTrigger>
+	<scope>source.matlab</scope>
+</snippet>
+
+
+
+
+
