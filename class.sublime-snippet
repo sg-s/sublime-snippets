@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+
+classdef CLASSNAME
+
+
+
+properties (Access = private)
+
+end % private props
+
+properties
+
+end % props
+
+
+
+methods 
+
+	function self = CLASSNAME()
+
+	end % constructor
+
+
+end % methods
+
+
+
+methods (Static)
+
+end % static methods
+
+
+
+
+
+
+end % classdef
+
+
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.matlab</scope>
+
+</snippet>
